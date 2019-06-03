@@ -96,6 +96,10 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void onClick(View v) {
                             Toast.makeText(getApplicationContext(), "Reset ", Toast.LENGTH_LONG).show();
+                       etName.setText(" ");
+                       etLast.setText(" ");
+                       etEmail.setText(" ");
+                        etPass.setText(" ");
                         }
                     });
                     snack.show();
